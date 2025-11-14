@@ -9,7 +9,7 @@
 
     .bg-color-6.mb-5(data-aos="fade-up")
       .row.justify-content-center.align-items-center
-        .col-lg-auto.mb-3.mb-lg-0
+        .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0
           figure
             img(src='@/assets/curso/tema2/1.png', alt='')
         .col-lg
@@ -21,7 +21,7 @@
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 2.1 Componentes del instrumento
     
-    .row.mb-5
+    .row.mb-5.align-items-center
       .col-lg-2.order-lg-2.mb-3.mb-lg-0
         figure
           img(src="@/assets/curso/tema2/2.svg", data-aos="zoom-in")
@@ -65,9 +65,9 @@
       .col-lg-8.mb-3.mb-lg-0
         p(data-aos="fade-left") El IPPTA se aplica mediante metodologías etnográficas participativas, que promueven el diálogo de saberes, la reflexión situada y la construcción colectiva del conocimiento. Estas metodologías garantizan que el IPPTA no sea una herramienta impuesta, sino una construcción enraizada en la experiencia y visión de las familias rurales. Los principales métodos aplicados:
     
-        .bg-color-6.tarjeta.mb-3.pe-3(data-aos="fade-up")
+        .bg-color-6.tarjeta.mb-3.pe-lg-3.p-3(data-aos="fade-up")
           .row.justify-content-center.align-items-center
-            .col-lg-auto.mb-3.mb-lg-0
+            .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0
               figure
                 img(src='@/assets/curso/tema2/7.svg', alt='')
             .col-lg
@@ -89,7 +89,7 @@
     #t_2_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 2.3 Concepto
 
-    .row.mb-5
+    .row.mb-5.align-items-center
       .col-lg-2.order-lg-2.mb-3.mb-lg-0
         figure
           img(src="@/assets/curso/tema2/2.svg", data-aos="zoom-in")
@@ -128,10 +128,10 @@
         .bg-full-width.bg-color-7.mb-5
           .px-4.px-md-5.py-4
             .row.align-items-center
-              .col-lg-auto
+              .col-lg-auto.mb-3.mb-lg-0
                 img(src="@/assets/curso/tema2/14.svg", style="max-width: 90px").mx-auto
               .col-lg.text-white
-                p.mb-0 Más allá de una herramienta técnica, el IPPTA se consolida como un dispositivo pedagógico y territorial que impulsa la autonomía comunitaria y la transformación de los sistemas agroalimentarios hacia modelos sostenibles, justos y culturalmente arraigados. Estas experiencias muestran que la transición agroecológica se construye colectivamente, desde el territorio y con los saberes de quienes lo habitan.
+                p.mb-0 Esta lectura integral del sistema predial permite orientar las acciones del IPPTA hacia una transición agroecológica situada, basada en el reconocimiento de la diversidad territorial y la capacidad de las comunidades para transformar su entorno.
 
 </template>
 

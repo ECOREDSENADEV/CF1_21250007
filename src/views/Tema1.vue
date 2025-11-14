@@ -9,7 +9,7 @@
     
     .bg-color-4.mb-5(data-aos="fade-up")
       .row.justify-content-center.align-items-center
-        .col-lg-auto.mb-3.mb-lg-0
+        .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0
           figure
             img(src='@/assets/curso/tema1/1.png', alt='')
         .col-lg
@@ -21,7 +21,7 @@
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 1.1 Antecedentes metodológicos
     
-    .row.mb-5
+    .row.mb-5.align-items-center
       .col-lg-2.order-lg-2.mb-3.mb-lg-0
         figure
           img(src="@/assets/curso/tema1/2.svg", data-aos="zoom-in")
@@ -78,7 +78,7 @@
 
         .bg-color-6.tarjeta.mb-5(data-aos="fade-up")
           .row.justify-content-center.align-items-center
-            .col-lg-auto.mb-3.mb-lg-0
+            .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0
               figure
                 img(src='@/assets/curso/tema1/8.svg', alt='')
             .col-lg
@@ -94,9 +94,9 @@
           .col-lg-8.order-lg-1
             p(data-aos="fade-left") Las acciones realizadas en el proceso:
         
-            .bg-color-7.tarjeta.mb-3.px-3.pt-3(data-aos="fade-up")
+            .bg-color-7.tarjeta.mb-3.px-lg-3.pt-lg-3.p-3(data-aos="fade-up")
               .row.justify-content-center.align-items-center
-                .col-lg-auto.mb-3.mb-lg-0
+                .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0
                   figure
                     img(src='@/assets/curso/tema1/10.svg', alt='')
                 .col-lg
@@ -117,7 +117,7 @@
           .col-lg-3.mb-3.mb-lg-0
             .bg-color-10.tarjeta.p-3(data-aos="fade-left").h-100
               .row.align-items-center
-                .col-lg-auto
+                .col-lg-auto.mb-3.mb-lg-0
                   img(src="@/assets/curso/tema1/11.svg", style="max-width: 90px").mx-auto
                 .col-lg
                   h5.mb-2 01
@@ -125,7 +125,7 @@
           .col-lg-3.mb-3.mb-lg-0
             .bg-color-10.tarjeta.p-3(data-aos="fade-left").h-100
               .row.align-items-center
-                .col-lg-auto
+                .col-lg-auto.mb-3.mb-lg-0
                   img(src="@/assets/curso/tema1/12.svg", style="max-width: 90px").mx-auto
                 .col-lg
                   h5.mb-2 02
@@ -133,7 +133,7 @@
           .col-lg-3.mb-3.mb-lg-0
             .bg-color-10.tarjeta.p-3(data-aos="fade-left").h-100
               .row.align-items-center
-                .col-lg-auto
+                .col-lg-auto.mb-3.mb-lg-0
                   img(src="@/assets/curso/tema1/13.svg", style="max-width: 90px").mx-auto
                 .col-lg
                   h5.mb-2 03
@@ -141,7 +141,7 @@
           .col-lg-3.mb-3.mb-lg-0
             .bg-color-10.tarjeta.p-3(data-aos="fade-left").h-100
               .row.align-items-center
-                .col-lg-auto
+                .col-lg-auto.mb-3.mb-lg-0
                   img(src="@/assets/curso/tema1/14.svg", style="max-width: 90px").mx-auto
                 .col-lg
                   h5.mb-2 04
@@ -154,9 +154,9 @@
           .col-lg-8.mb-3.mb-lg-0
             p(data-aos="fade-left") Su estructura incluye indicadores de caracterización social, ambiental y productiva, orientados a construir un Plan de Acción Predial para la Transición Agroecológica. Más que imponer modelos, el IPPTA facilita procesos de reflexión situada, donde familias y comunidades proyectan sus predios como espacios vivos de transformación.
         
-            .bg-color-7.tarjeta.mb-3.px-3.pt-3(data-aos="fade-up")
+            .bg-color-7.tarjeta.mb-3.px-lg-3.pt-lg-3.p-3(data-aos="fade-up")
               .row.justify-content-center.align-items-center
-                .col-lg-auto.mb-3.mb-lg-0
+                .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0
                   figure
                     img(src='@/assets/curso/tema1/16.svg', alt='')
                 .col-lg
@@ -179,7 +179,7 @@
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 1.3 Propósitos del IPPTA: pedagógicos, técnicos y organizativos
     
-    .row.mb-5
+    .row.mb-5.align-items-center
       .col-lg-2.order-lg-2.mb-3.mb-lg-0
         figure
           img(src="@/assets/curso/tema1/17.svg", data-aos="zoom-in")
@@ -224,7 +224,7 @@
       .col-lg-8
         .bg-color-7.tarjeta.mb-3(data-aos="fade-up")
           .row.justify-content-center.align-items-center
-            .col-lg-auto.mb-3.mb-lg-0
+            .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0
               figure
                 img(src='@/assets/curso/tema1/22.svg', alt='')
             .col-lg
@@ -263,7 +263,7 @@
           .col-lg-4.mb-3.mb-lg-0
             .bg-color-10.tarjeta.p-3(data-aos="fade-left").h-100
               .row.align-items-center
-                .col-lg-auto
+                .col-lg-auto.mb-3.mb-lg-0
                   img(src="@/assets/curso/tema1/24.svg", style="max-width: 90px").mx-auto
                 .col-lg
                   h5.mb-2 01
@@ -271,7 +271,7 @@
           .col-lg-4.mb-3.mb-lg-0
             .bg-color-10.tarjeta.p-3(data-aos="fade-left").h-100
               .row.align-items-center
-                .col-lg-auto
+                .col-lg-auto.mb-3.mb-lg-0
                   img(src="@/assets/curso/tema1/25.svg", style="max-width: 90px").mx-auto
                 .col-lg
                   h5.mb-2 02
@@ -279,7 +279,7 @@
           .col-lg-4.mb-3.mb-lg-0
             .bg-color-10.tarjeta.p-3(data-aos="fade-left").h-100
               .row.align-items-center
-                .col-lg-auto
+                .col-lg-auto.mb-3.mb-lg-0
                   img(src="@/assets/curso/tema1/26.svg", style="max-width: 90px").mx-auto
                 .col-lg
                   h5.mb-2 03
@@ -288,7 +288,7 @@
         .bg-full-width.bg-color-7.mb-5
           .px-4.px-md-5.py-4
             .row.align-items-center
-              .col-lg-auto
+              .col-lg-auto.mb-3.mb-lg-0
                 img(src="@/assets/curso/tema1/27.svg", style="max-width: 90px").mx-auto
               .col-lg.text-white
                 p.mb-0 Más allá de una herramienta técnica, el IPPTA se consolida como un dispositivo pedagógico y territorial que impulsa la autonomía comunitaria y la transformación de los sistemas agroalimentarios hacia modelos sostenibles, justos y culturalmente arraigados. Estas experiencias muestran que la transición agroecológica se construye colectivamente, desde el territorio y con los saberes de quienes lo habitan.

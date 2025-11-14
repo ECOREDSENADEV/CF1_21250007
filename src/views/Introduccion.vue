@@ -20,7 +20,7 @@
 
             .bg-color-1.mb-5(data-aos="fade-up")
               .row.justify-content-center.align-items-center
-                .col-lg-auto.order-2
+                .col-lg-auto.mb-3.mb-lg-0.order-2
                   figure
                     img(src='@/assets/curso/intro/2.png', alt='')
                 .col-lg.order-1.mb-3.mb-lg-0
@@ -30,7 +30,7 @@
         .bg-full-width.bg-color-2.mb-5
           .px-4.px-md-5.py-4
             .row.align-items-center
-              .col-lg-auto
+              .col-lg-auto.mb-3.mb-lg-0
                 img(src="@/assets/curso/intro/3.svg", style="max-width: 90px").mx-auto
               .col-lg
                 p.mb-0 El propósito fundamental del IPPTA es acompañar la transición agroecológica de los predios rurales mediante un proceso pedagógico, técnico y organizativo. En su aplicación, permite identificar potencialidades y problemáticas del territorio, promover la autonomía comunitaria y articular acciones con políticas públicas como la Resolución 331 de 2024, que reconoce al IPPTA como herramienta oficial para la planificación agroecológica. Su uso ha demostrado ser valioso en contextos de posconflicto, procesos de reforma agraria y proyectos de economía solidaria, consolidándolo como un dispositivo de transformación territorial que vincula la agroecología con la salud de los ecosistemas y la vida comunitaria.
