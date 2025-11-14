@@ -56,6 +56,20 @@ figcaption
     background-color: #FFC94A
   &-3
     background: linear-gradient(180deg,rgba(255, 255, 255, 1) 0%, rgba(255, 245, 204, 1) 40%, rgba(255, 245, 204, 1) 60%, rgba(255, 255, 255, 1) 100%);
+  &-4
+    background-color: #FFE9B5
+  &-5
+    background-color: #ffffffb3
+  &-6
+    background-color: #D9E8F9
+  &-7
+    background-color: #3E5B2C
+  &-8
+    color: #5A8441 !important
+  &-9
+    background: linear-gradient(0deg,rgba(255, 255, 255, 1) 0%, rgba(245, 251, 238, 1) 30%, rgba(255, 245, 204, 1) 70%, rgba(255, 255, 255, 1) 100%)
+  &-10
+    background-color: #F9ECA8
   &-white
     background-color: white !important
     border: 1px solid $lightest-gray
@@ -85,11 +99,72 @@ figcaption
 ///////////////fondos/////////////////
 .bg-fondo
   &-1
-    //background-image: url("../assets/bg/bg1.png") !important
+    background-image: url("../assets/curso/bg1.svg") !important
     background-position: top
   &-2
     // background-image: url("../assets/bg/bg2.png") !important
     background-position: bottom
   &-slider
-    //background-image: url("../assets/bg/bg-slider.png") !important
+    background-image: url("../assets/curso/bg-slider.png") !important
     background-position: bottom
+
+//////////////CUSTON SLYDER-A////////
+.slyder-a__bullets__item 
+  background-color: #B4BEAE
+  border: #B4BEAE
+.slyder-a__bullets__item--active
+  background-color: #2C411F
+.slyder-a__btn--atrs, .slyder-a__btn--sigt
+  background-color: #FF9800
+
+/////////CUSTOM TABS-B///////////////
+.tabs-b__content-item, .tabs-b__tab.tabs-b__tab--active
+  background-color: #EBF3FC
+.tabs-b__tab
+  background-color: #D9E8F9
+
+/////////////ACORDION/////////////
+.acordion__accion__btn--a
+  background-color: #FF9800 !important
+  color: white
+.acordion__activo
+  background-color: #FFE9B5!important
+.acordion_titulo
+  color: #fff !important
+.acordion__titulo 
+  h3
+    color: $color-sistema-texto  !important
+.acordion__activo
+  .acordion__titulo 
+    h3
+      color: $color-sistema-texto !important
+
+//////////CUSTOM BOTONES SLYDER-F/////////
+.slyder-f__btn
+  height: 35px
+  width: 35px
+  max-width: 35px
+  background-color: $color-acento-botones
+  border-radius: 50%
+  padding: 0 !important
+  margin: 0 auto
+  .fa-chevron-left
+    font-size: 20px
+  .fa-chevron-right
+    font-size: 20px
+  
+.slyder-f
+    align-items: center
+
+    .slyder-f__main
+      width: 70%
+
+      @media (min-width: 769px)
+        width: 80%
+
+////////SOMBRA CAJON//////////
+.shadow-app
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  padding: 20px;
+  border-radius: 8px; /* Opcional, para bordes redondeados */
